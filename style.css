@@ -32,7 +32,7 @@ body {
 
 .container {
   width: 960px;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 header,
@@ -53,25 +53,30 @@ h2 {
 
 .btn:link,
 .btn:visited {
- /* */
-
+  color: #fff;
   display: inline-block;
   border-radius: 100px;
 }
 
 .btn:hover,
 .btn:active {
-  /* */
+  background-color: #099268;
 }
 
 .btn--big {
     font-size: large;
-    padding: 0;
+    background-color: #087f5b;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .btn--small {
- font-size: small;
- padding: 0;
+    font-size: small;
+    background-color: #087f5b;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 img {
@@ -85,6 +90,7 @@ img {
 /* HEADER */
 header {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   column-gap: 80px;
   margin-top: 64px;
 }
@@ -108,7 +114,6 @@ h1 {
 
 img {
   width: 100%;
-  grid-column: 2 / 3;
 }
 
 /* FEATURES */
@@ -131,7 +136,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
-    border-color: #087f5b;
+    background-color: #087f5b;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 .testimonial-box {
@@ -142,6 +149,7 @@ img {
 .testimonial-box h2 {
   margin-bottom: 24px;
   font-size: 24px;
+  color: #fff;
 }
 
 .testimonial-text {
@@ -200,6 +208,7 @@ h3 {
   display: flex;
   font-size: 20px;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer {

@@ -30,7 +30,7 @@ Use your INSPECT tool in the browser to observe the layout changes as you make t
 - Testimonial Section has colors and padding and round-borders.
 - Tesimonial Box has grid layout.
 - Testimonial Text has font styling and color #e6fcf5.
-- Testimonial Author has color #c3fae80
+- Testimonial Author has color #c3fae8
 - Chair Details has list style changed.
 - Chair Details List Items have a layout and a gap of 12px.
 - Chair Price has a layout.
